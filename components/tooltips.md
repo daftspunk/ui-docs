@@ -14,20 +14,23 @@ A standard tooltip
     </div>
 </div>
 
-    <div class="tooltip fade top in">
-        <div class="tooltip-arrow"></div>
-        <div class="tooltip-inner">Create a new blog post based on this</div>
-    </div>
+{% highlight html %}
+<div class="tooltip fade top in">
+    <div class="tooltip-arrow"></div>
+    <div class="tooltip-inner">Create a new blog post based on this</div>
+</div>
+{% highlight html %}
 
 ## Spawning tooltips
 Tooltips can be automatically created when the mouse enters an element using the `data-toggle="tooltip"` tag.
 
-
-    <a
-        href="javascript:;"
-        data-toggle="tooltip"
-        data-placement="left"
-        data-delay="500"
-        title="Tooltip content">
-        Some link
-    </a>
+{% highlight html %}
+<a
+    href="javascript:;"
+    data-toggle="tooltip"
+    data-placement="left"
+    data-delay="500"
+    title="Tooltip content">
+    Some link
+</a>
+{% highlight html %}

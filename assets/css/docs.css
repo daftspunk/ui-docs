@@ -115,8 +115,6 @@ strong, b { font-weight: bold; line-height: inherit; }
 
 small { font-size: 60%; line-height: inherit; }
 
-code { font-weight: bold; background: #ffff99; }
-
 /* Lists ---------------------- */
 ul, ol, dl { font-size: 12px; line-height: 1.6; margin-bottom: 17px; list-style-position: outside; }
 
@@ -993,7 +991,7 @@ table .align_right { text-align: right !important; }
 /* --------------------------------------------------
 :: Icons
 ----------------------------------------------------- */
-@font-face { font-family: 'FontAwesome'; src: url("/docs/assets/fonts/font-awesome/fontawesome-webfont.eot"); src: url("/docs/assets/fonts/font_awesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/docs/assets/fonts/font_awesome/fontawesome-webfont.woff") format("woff"), url("/docs/assets/fonts/font_awesome/fontawesome-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'FontAwesome'; src: url("/docs/assets/fonts/font-awesome/fontawesome-webfont.eot"); src: url("/docs/assets/fonts/font-awesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/docs/assets/fonts/font-awesome/fontawesome-webfont.woff") format("woff"), url("/docs/assets/fonts/font-awesome/fontawesome-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 
 /*  Font Awesome styles ------------------------------------------------------- */
 /* includes sprites.less reset */
