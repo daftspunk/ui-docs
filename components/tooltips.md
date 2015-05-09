@@ -19,7 +19,7 @@ A standard tooltip
     <div class="tooltip-arrow"></div>
     <div class="tooltip-inner">Create a new blog post based on this</div>
 </div>
-{% highlight html %}
+{% endhighlight %}
 
 ## Spawning tooltips
 Tooltips can be automatically created when the mouse enters an element using the `data-toggle="tooltip"` tag.
@@ -33,4 +33,4 @@ Tooltips can be automatically created when the mouse enters an element using the
     title="Tooltip content">
     Some link
 </a>
-{% highlight html %}
+{% endhighlight %}
